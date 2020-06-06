@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenShop_API", "GreenShop_API\GreenShop_API.csproj", "{0A2AD883-4F1A-4526-9FF1-DF20A16C8C48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenShop_Client", "GreenShop_Client\GreenShop_Client.csproj", "{0F0CC9DC-12F0-4222-B149-52C1EB13B8D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A2AD883-4F1A-4526-9FF1-DF20A16C8C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2AD883-4F1A-4526-9FF1-DF20A16C8C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2AD883-4F1A-4526-9FF1-DF20A16C8C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2AD883-4F1A-4526-9FF1-DF20A16C8C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0CC9DC-12F0-4222-B149-52C1EB13B8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0CC9DC-12F0-4222-B149-52C1EB13B8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0CC9DC-12F0-4222-B149-52C1EB13B8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0CC9DC-12F0-4222-B149-52C1EB13B8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {022AFF7D-6B9B-4B3F-9C3F-2E6F2BB86CC4}
+	EndGlobalSection
+EndGlobal
