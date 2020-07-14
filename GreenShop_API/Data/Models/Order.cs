@@ -9,11 +9,17 @@
 
         public int CustomerId { get; set; }
 
+        public Customer Customer { get; set; }
+
         public DateTime CreatedOn { get; set; }
 
         public DateTime ModifiedOn { get; set; }
 
-        public ICollection<Item> Items { get; set; }
+        public int EmployeeId { get; set; }
+
+        public Employee Employee { get; set; }
+
+        public ICollection<Item> Items { get; set; } = new List<Item>();
 
     }
 }

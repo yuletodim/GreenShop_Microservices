@@ -8,7 +8,8 @@
     using System.Threading;
     using GreenShop_API.Data.Models;
     using GreenShop_API.Data.Models.Common;
-    
+    using System.Reflection;
+
     public class GreenShopDbContext : IdentityDbContext<User>
     {
         public GreenShopDbContext(DbContextOptions<GreenShopDbContext> options)
@@ -34,6 +35,13 @@
         {
             this.ApplyAuditInfoRules();
             return await base.SaveChangesAsync(cancellationToken);
+        }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            base.OnModelCreating(builder);
         }
 
         private void ApplyAuditInfoRules()

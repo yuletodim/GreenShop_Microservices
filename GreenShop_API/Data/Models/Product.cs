@@ -1,5 +1,7 @@
 ﻿namespace GreenShop_API.Data.Models
 {
+    using System.Collections.Generic;
+
     public class Product
     {
         public int Id { get; set; }
@@ -17,5 +19,7 @@
         public Provider Provider { get; set; }
 
         public int Stock { get; set; }
+
+        public ICollection<Item> Items { get; set; } = new List<Item>();
     }
 }
